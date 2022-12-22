@@ -1,0 +1,157 @@
+:root {
+  --section-margin: 200px;
+  --section-padding: 100px;
+}
+* {
+}
+body {
+  font-family: "Press Start 2P", cursive;
+}
+/* nav start */
+.navbar {
+  box-shadow: 2px 2px 10px 5px rgba(168, 168, 168, 0.267);
+}
+.navbar-toggler {
+  color: #fff;
+  font-size: 25px;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-toggler[aria-expanded="true"] {
+  border-color: green;
+}
+.nav-link,
+.logo {
+  margin: 0px 15px;
+  color: #494949;
+}
+.nav-link {
+  font-size: 15px;
+}
+.navbar {
+  background-color: #f2f2f2;
+}
+.bars {
+  color: #1a1a1a;
+}
+.navbar-nav {
+  margin-left: 50px;
+}
+/* nav end */
+/* About me section */
+.about-me {
+  margin-top: var(--section-margin);
+  background-color: rgba(214, 214, 214, 0.247);
+}
+.content {
+}
+.content p {
+  font-family: "Alexandria", sans-serif !important;
+  font-size: 20px;
+  line-height: 45px;
+  padding: 50px 0px;
+}
+.content .myskillsarrow {
+  margin-top: 100px;
+  font-size: 30px;
+}
+.content .arrowdown {
+  font-size: 30px;
+}
+/* end About me section */
+
+/* my skills  section */
+.myskills {
+  margin-top: var(--section-margin);
+  /* height: 100vh; */
+  background-color: rgba(255, 255, 255, 0.521);
+}
+.myskills .prog .progress {
+  margin: 30px 0px;
+}
+.myskills .prog {
+  width: 50%;
+}
+.myskills .image img {
+  width: 50%;
+}
+/* end my skills section */
+
+/* main section */
+
+.main-image {
+  width: 350px;
+}
+.info {
+  color: #1a1a1a;
+  margin-top: var(--section-margin);
+}
+.main-section {
+  background-color: #f2f2f2;
+  background-image: url(../img/1123123.png);
+  background-size: cover;
+  height: 100vh;
+}
+/* glitch Header */
+.myname {
+  font-size: 30px;
+  text-shadow: 5px 1px #82ffff25;
+}
+.myname::before {
+  content: "I'm";
+  position: absolute;
+  transform: translate(-120px);
+}
+.hi {
+  font-size: 25px;
+}
+.front-end {
+  font-size: 25px;
+}
+/* end main section */
+
+/* Portfolio-section section */
+.Portfolio-section {
+  margin-top: var(--section-margin);
+  /* height: 100vh; */
+  background-color: #f2f2f2;
+}
+.box {
+}
+.box img {
+}
+.box-header {
+  font-size: 20px;
+}
+.box img {
+  width: 300px;
+  margin: 10px 0px;
+}
+.port-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-btn {
+  display: flex;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 200px;
+  height: 40px;
+  text-decoration: none;
+  cursor: pointer;
+  /* padding: 10px 20px; */
+  color: #fff;
+  background-color: #1a1a1a;
+  border-radius: 15px;
+}
+/* end Portfolio-section section */
+
+/* start footer */
+footer {
+  margin-top: var(--section-margin);
+}
+/* end footer */
